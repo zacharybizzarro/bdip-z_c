@@ -351,6 +351,7 @@ footer {
 @media screen and (max-width: 650px) {
   #head1 {
     background-image: ("../media/head-2-1.jpg");
+    background-attachment: scroll;
   }
 
 @media screen and (max-width: 650px) {
