@@ -353,6 +353,21 @@ footer {
     background-image: ("../media/head-2-1.jpg");
     background-attachment: scroll;
   }
+@media screen and (max-width: 650px) {
+  #head2 {
+    background-image: ("../media/head-3-1.jpg");
+    background-attachment: scroll;
+  }
+@media screen and (max-width: 650px) {
+  #head3 {
+    background-image: ("../media/head-4-1.jpg");
+    background-attachment: scroll;
+  }
+  @media screen and (max-width: 650px) {
+  #head4 {
+    background-image: ("../media/head-5-1.jpg");
+    background-attachment: scroll;
+  }
 
 @media screen and (max-width: 650px) {
   #headtext1 {
