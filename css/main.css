@@ -167,16 +167,7 @@ form {
     min-height: 380px;
     margin-top: 0px;
 }
-#headcontact {
 
-    background-image: url("../media/office.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 0%;
-    width: 100%;
-    min-height: 250px;
-    margin-top: 0px;
-}
 
 
 #headtext1 {
@@ -188,24 +179,6 @@ form {
     font-size: 25pt;
     text-shadow: 0px 0px 10px black;
 }
-#headtext2 {
-    font-weight: 900;
-    margin: auto;
-    color: green;
-    text-align: center;
-    font-size: 25pt;
-    text-shadow: 0px 0px 10px white;
-    padding-top: 5%;
-}
-#headtext2-1 {
-    font-weight: 900;
-    margin: auto;
-    color: white;
-    text-align: center;
-    font-size: 19pt;
-    text-shadow: 0px 0px 10px black;
-    padding-top: 2%;
-}
 
 /* Contact */
 
@@ -213,7 +186,7 @@ form {
   background-color: white;
   padding-top: 0;
   float: left;
-  margin-left: 4%;
+  margin-left: 9%;
   margin-bottom: 1%;
   width: 25%;
   text-align: left;
@@ -226,11 +199,42 @@ form {
   margin-bottom: 1%;
   width: 25%;
   text-align: left;
+  margin-left: 4%;
 }
 #contactsection {
   background-color: white;
   width: 100%;
   margin-bottom: 3%;
+}
+
+#headtext2 {
+    font-weight: 900;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    text-shadow: 0px 0px 10px black;
+    padding-top: 5%;
+}
+#headtext2-1 {
+    font-weight: 900;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 19pt;
+    text-shadow: 0px 0px 10px black;
+    padding-top: 2%;
+}
+
+#headcontact {
+
+    background-image: url("../media/office.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0%;
+    width: 100%;
+    min-height: 250px;
+    margin-top: 0px;
 }
 
 #buffer {
@@ -314,12 +318,12 @@ footer {
 
 #footicon {
   margin-top: 15px;
-  margin-left: 48%;
+  margin-left: 47.5%;
 }
 
 /* footer */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -327,7 +331,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon{
     position: absolute;
@@ -411,7 +415,7 @@ footer {
 
 @media screen and (max-width: 400px) {
   #footicon {
-    margin-left: 40%;
+    margin-left: 39.5%;
     width: 15%;
   }  
 
@@ -478,8 +482,14 @@ footer {
     width: 85%;
   }
 
+@media screen and (max-width: 650px) {
+  #headcontact {
+    background-image: ("../media/office-1.jpg");
+    background-attachment: scroll;
+  }
+
 @media screen and (max-width: 1024px) {
-  #map {
+  #contactsectio {
     margin-left: 5%;
   }
 
