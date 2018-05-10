@@ -348,22 +348,22 @@ footer {
    color: white;
   }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   #head1 {
     background-image: ("../media/head-2-1.jpg");
     background-attachment: scroll;
   }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   #head2 {
     background-image: ("../media/head-3-1.jpg");
     background-attachment: scroll;
   }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   #head3 {
     background-image: ("../media/head-4-1.jpg");
     background-attachment: scroll;
   }
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 768px) {
   #head4 {
     background-image: ("../media/head-5-1.jpg");
     background-attachment: scroll;
@@ -476,6 +476,11 @@ footer {
   #contactarticle {
     margin-left: 10%;
     width: 85%;
+  }
+
+@media screen and (max-width: 768px) {
+  #map {
+    margin-left: 5%;
   }
 
 @media screen and (max-width: 650px) {
