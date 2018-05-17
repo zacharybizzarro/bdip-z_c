@@ -121,6 +121,56 @@ form {
   padding-bottom: 4%;
 }
 
+/* Our Team Columns/Rows */
+
+#contact {
+  font-size: 10px;
+  color: grey;
+
+}
+
+#about {
+  font-size: 11px;
+  color: grey;
+  float: left;
+  width:70%;
+}
+
+#h2-2 {
+  font-size: 12px;
+  font-style: italic;
+  color: grey;
+  float: left;
+}
+
+#teamphoto {
+  width: 10%;
+  float: left;
+  margin-right: 3%;
+
+  
+}
+
+#teamphoto2 {
+  width: 11.5%;
+  margin-right: 2%;
+  float: left;
+}
+
+#teamarticle {
+  width: 75%;
+  margin-left: 15%;
+  padding-top: 3%;
+}
+
+#clear {
+  clear: both;
+}
+
+#teamsection {
+  margin-left: 3%;
+}
+
 /* nav */
 
 #head1 {
@@ -168,12 +218,10 @@ form {
     margin-top: 0px;
 }
 
-
-
 #headtext1 {
     font-weight: 900;
     margin: auto;
-    padding-top: 15%;
+    padding-top: 10%;
     color: white;
     text-align: center;
     font-size: 25pt;
@@ -264,6 +312,8 @@ form {
 }
 
 /* Contact */
+
+
 
 /* footer */
 
@@ -371,6 +421,12 @@ footer {
   #head4 {
     background-image: ("../media/head-5-1.jpg");
     background-attachment: scroll;
+  }
+
+@media screen and (max-width: 1500px) {
+  #headtext1 {
+    padding-top: 15%;
+    font-size: 18pt;
   }
 
 @media screen and (max-width: 650px) {
